@@ -1,28 +1,21 @@
 <section class="github">
     <style>
-        .github {
-            width: 100%;
-            max-width: 100%;
-            margin: 0 auto;
-            padding-top: 20px;
-        }
         .crop {
-            overflow: hidden; /* 이미지가 div의 크기를 넘어가는 부분은 잘라냄 */
-            width: 200px; /* 컨테이너의 너비, 필요에 따라 조정 */
-            height: 200px; /* 컨테이너의 높이, 필요에 따라 조정 */
+            overflow: hidden;
+            width: 700px; /* Reduced width to 100px */
+            height: 200px;
         }
-        .crop img {
-            width: 500%; /* 원본 이미지의 두 배 크기 */
-            height: auto; /* 높이 자동 조정 */
-            transform: translateX(-47%)
+        .graph {
+            width: 100%; /* Scale image to fit new container width */
+            transform: translateX(-73%); /* Shift image to show right half */
         }
         .crop .title {
-            font-size: x-small; /* 이미지에 포함된 title 태그 숨김 */
+            font-size: x-small;
             text-align: left;
         }
     </style>
     <div class="crop">
         <p class="title">Github commit history</p>
-        <img src="https://ghchart.rshah.org/Two-Jay" alt="Two-Jay's Github chart" />
+        <img class='graph' src="https://ghchart.rshah.org/Two-Jay"/>
     </div>
 </section>
