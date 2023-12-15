@@ -7,7 +7,9 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jemoji"
   gem "kramdown-parser-gfm"
-  gem 'jekyll_github_chart'
+  gem 'jekyll-github-chart'
 end
 
 gem "webrick", "~> 1.8"
+
+gem "githubchart"
