@@ -11,7 +11,7 @@
             width: 200px; /* 컨테이너의 너비, 필요에 따라 조정 */
             height: 200px; /* 컨테이너의 높이, 필요에 따라 조정 */
         }
-        .crop svg {
+        .crop img {
             width: 500%; /* 원본 이미지의 두 배 크기 */
             height: auto; /* 높이 자동 조정 */
             transform: translateX(-47%)
@@ -23,6 +23,6 @@
     </style>
     <div class="crop">
         <p class="title">Github commit history</p>
-        {% github_chart Two-Jay default raw%}
+        <img src="https://ghchart.rshah.org/Two-Jay" alt="Two-Jay's Github chart" />
     </div>
 </section>
