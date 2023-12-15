@@ -1,0 +1,18 @@
+<div>
+    <style>
+        .crop {
+            overflow: hidden; /* 이미지가 div의 크기를 넘어가는 부분은 잘라냄 */
+            width: 200px; /* 컨테이너의 너비, 필요에 따라 조정 */
+            height: 200px; /* 컨테이너의 높이, 필요에 따라 조정 */
+        }
+        .crop svg {
+            width: 500%; /* 원본 이미지의 두 배 크기 */
+            height: auto; /* 높이 자동 조정 */
+            transform: translateX(-47%) translateY(-10%)
+        }
+    </style>
+    <div class="crop">
+        <p>Github commit history</p>
+        {% github_chart Two-Jay default raw %}
+    </div>
+</div>
