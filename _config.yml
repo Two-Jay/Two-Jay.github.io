@@ -16,6 +16,11 @@ social-github: Two-Jay # add your Github handle
 social-linkedin: two-jay # add your Linkedin handle
 social-email: djeeee1272@gmail.com # add your Email address
 
+githubcontributions:
+  username: two-jay # Github username
+  page_limit: 3 # Number of pages of data to grab from Github
+  cache: 300 # Number of seconds to cache the data file
+
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
 

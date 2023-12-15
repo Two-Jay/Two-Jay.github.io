@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/JCotton1123/jekyll-github-contributions.git
+  revision: bf9199683fa17c7ff7b16ffecbf1be28833b2456
+  specs:
+    jekyll-github-contributions (0.1.1)
+      jekyll (~> 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -95,6 +102,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-github-contributions!
   jekyll-paginate
   jekyll-sitemap
   jemoji
